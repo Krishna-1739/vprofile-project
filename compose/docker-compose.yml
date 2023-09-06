@@ -36,7 +36,7 @@ services:
   vproweb:
     build: 
       context: /root/vprofile-project/Docker-web
-    image: krish1739/vprofiledb
+    image: krish1739/vprofileweb
     ports:
       - "80:80"
 volumes:
